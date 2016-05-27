@@ -38,5 +38,7 @@ Open browser to localhost:8080
 	
 ```
 Delete app/index.html
+
 Included is a template file named rename-this-to-index.html.
+
 Enjoy!
