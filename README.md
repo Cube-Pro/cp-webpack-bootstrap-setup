@@ -2,11 +2,11 @@
 Baseline minimal bootstrap setup with use of webpack.
 
 Instructions:
--Open command line
--run the following commands:
--npm install
--webpack
--npm start
+- Open command line
+- run the following commands:
+- ```npm install```
+- ```webpack```
+- ```npm start```
 
 Open browser to localhost:8080
 
@@ -24,7 +24,7 @@ Open browser to localhost:8080
 		<body>
 			<div class="container">
 				<h1 class="text-center">Hello World</h1>
-				This bootstrap has been included!  Happy coding.			
+				Bootstrap has been included!  Happy coding.			
 			</div>
 		</body>
 	</html>
