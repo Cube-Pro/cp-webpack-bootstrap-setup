@@ -11,7 +11,7 @@ Instructions:
 Open browser to localhost:8080
 
 
-<pre>
+```
 	
 	<!DOCTYPE html>
 	<html lang="">
@@ -29,4 +29,4 @@ Open browser to localhost:8080
 		</body>
 	</html>
 	
-</pre>
+```
