@@ -12,7 +12,7 @@ Open browser to localhost:8080
 
 
 <pre>
-	<code>
+	
 	<!DOCTYPE html>
 	<html lang="">
 		<head>
@@ -28,5 +28,5 @@ Open browser to localhost:8080
 			</div>
 		</body>
 	</html>
-	</code>
+	
 </pre>
