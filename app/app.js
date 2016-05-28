@@ -2,6 +2,7 @@ var jQuery = require("jquery");
 require("bootstrap-webpack");
 require("bootstrap-webpack!./bootstrap.config.js");
 require("./css/style.css");
+//require("!style!css!less!./bootstrap.config.less");
 //require('jQuery');
 
 // var $ = require('jquery');

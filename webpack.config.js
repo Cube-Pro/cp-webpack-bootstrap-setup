@@ -8,6 +8,12 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
   filename: 'index.html',
   inject: 'body'
 });
+
+var TESTTransfer = new HtmlWebpackPlugin({
+  template: __dirname + '/app/rename-this-to-index.html',
+  filename: 'rename-this-to-index.html'
+});
+
 module.exports = {
   entry: [
     path.resolve(__dirname, './app/app.js')
@@ -18,7 +24,9 @@ module.exports = {
   },
   module: {
     loaders: [
+      { test: /\.css$/, loader: "style-loader!css-loader" },
       //{test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
+
       // **IMPORTANT** This is needed so that each bootstrap js file required by
       // bootstrap-webpack has access to the jQuery object
       { test: /bootstrap\/js\//, loader: 'imports?jQuery=jquery' },
@@ -34,6 +42,7 @@ module.exports = {
   },
   plugins: [
     HTMLWebpackPluginConfig,
+    TESTTransfer,
     new webpack.ProvidePlugin({
     $: "jquery",
     jQuery: "jquery",
